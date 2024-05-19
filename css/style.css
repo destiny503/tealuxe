@@ -407,6 +407,10 @@ body {
   display: flex;
 }
 
+.footer__nav-logo {
+  margin-right: 400px;
+}
+
 .footer__bottom {
   display: flex;
 }
