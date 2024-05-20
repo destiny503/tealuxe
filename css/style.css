@@ -405,10 +405,37 @@ body {
 
 .footer__nav {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__nav-logo {
-  margin-right: 400px;
+  margin-right: 40px;
+}
+
+.footer__nav-phone,
+.footer__nav-email {
+  font-size: 13px;
+  position: relative;
+  padding-left: 32px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__nav-phone::before,
+.footer__nav-email::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 22px;
+  height: 16px;
+  background-image: url(../images/mail.svg);
+}
+
+.footer__nav-phone::before {
+  background-image: url(../images/phone.svg);
+  width: 21px;
+  height: 21px;
 }
 
 .footer__bottom {
