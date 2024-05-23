@@ -768,6 +768,12 @@ body {
   .footer__contacts-title {
     margin-bottom: 20px;
   }
+  .footer__contacts-text {
+    text-align: center;
+  }
+  .footer__nav {
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 360px) {
