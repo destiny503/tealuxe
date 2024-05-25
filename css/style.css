@@ -775,7 +775,7 @@ body {
     flex-wrap: nowrap;
   }
 }
-
+/* todo */
 @media (max-width: 360px) {
   .title {
     margin-bottom: 10px;
